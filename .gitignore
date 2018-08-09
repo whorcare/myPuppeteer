@@ -28,3 +28,7 @@ dist
 coverage
 docs/
 .gitlab-ci.yml
+screenshot/*.png
+mn/*.png
+mn/*.jpg
+mn/*.gif
