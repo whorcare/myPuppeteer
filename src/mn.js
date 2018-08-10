@@ -31,8 +31,8 @@ const srcToimg = require('./helper/srcToimg');
 
         console.log(`get ${srcs.length} images, start`); // 获取的数量
 
-        srcs.forEach(src => {
-            srcToimg(src, mn);
+        srcs.forEach(async (src) => {
+            await srcToimg(src, mn);
         });
 
         await browser.close();
